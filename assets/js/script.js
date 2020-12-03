@@ -51,3 +51,22 @@ for (var i = 0; i < Students.length; i++) {
     console.log(Students[i].name, Students[i].surname);
     
 }
+
+var Scelta = prompt("vuoi inserire un nuovo studente? Puoi rispondere si o no");
+
+if (Scelta == "si"){
+    var NewStudentName = prompt("aggiungi il nome del nuovo studente");
+
+    var NewStudentSurname = prompt("aggiungi il cognome del nuovo studente");
+
+    var NewStudentAge = prompt("aggiungi l'età del nuovo studente");
+
+    Students.push({
+        "name": NewStudentName,
+        "surname": NewStudentSurname,
+        "age": NewStudentAge
+    });
+}
+
+console.log(Students)
+
