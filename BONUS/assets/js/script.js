@@ -73,7 +73,7 @@ console.log(Students)
 for (i = 0; i < Students.length; i++){
     document.getElementById("ListaStudenti").innerHTML += 
     "<li> " +
-    "Nome: " + Students[i].name + "<br>" + 
+    "name: " + Students[i].name + "<br>" + 
     "Cognome: " + Students[i].surname + "<br>" +
     "Età " + Students[i].age + "<br><br>" +
     "</li>";
